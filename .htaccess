@@ -1,0 +1,7 @@
+RewriteEngine on  
+
+
+RewriteRule ^gestClient$ src/view/client/listeClient.php
+RewriteRule ^gestCompte$ src/view/compte/listeCompte.php
+RewriteRule ^newCompte$ src/view/compte/addCompte.php
+RewriteRule ^compte$ src/controller/compteController.php
